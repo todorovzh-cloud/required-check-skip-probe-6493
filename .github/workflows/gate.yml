@@ -4,6 +4,7 @@ on:
   push:
 jobs:
   required-job:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - run: echo ok
